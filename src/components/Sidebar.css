@@ -8,7 +8,7 @@
 
 .mybtn > .btn- {
   background: var(--Dillivry-Green);
-  font-family: "Roboto", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -38,7 +38,8 @@
   position: fixed;
   height: 100%;
   width: 282px;
-  background: #FFFFFF;;
+  background: #FFFFFF !important;
+  
 }
 
 .bottom-logo {
