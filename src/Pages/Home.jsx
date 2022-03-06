@@ -2,7 +2,7 @@ import React from "react";
 import Layout from "../Layout/Layout";
 import './Home.css'
 import profileimage from '../Assets/Images/profileimage.svg'
-import Subtract from '../Assets/Images/Subtract.svg'
+
 
 
 export default function Home() {

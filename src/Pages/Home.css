@@ -18,10 +18,6 @@ padding: 0px !important;
 
 }
 
-.header-title{
-    /* padding-bottom: 0px !important;
-    margin-bottom: 0px !important; */
-}
 
 .header-name{
     margin-top: 5px !important;
@@ -36,27 +32,9 @@ padding: 0px !important;
     gap: 10px;
 }
 
-.header-title{
-    /* font-family: 'Montserrat', sans-serif;
-    font-style: normal;
-font-weight: 300;
 
-line-height: 17px;
-letter-spacing: 0.02em;
-width: 100%;
-max-width: 20px;
-color: #B4B5C1; */
 
-}
 
-/* .header-title:not(1){
-    color: #B4B5C1;
-    font-size: 12px; 
-    font-family: 'Montserrat', sans-serif;
-    font-style: normal;
-font-weight: 300;
-
-} */
 
 
 .header-name{

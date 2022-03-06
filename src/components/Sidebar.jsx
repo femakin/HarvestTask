@@ -1,12 +1,10 @@
-import React, { useContext, useState } from "react";
+import React from "react";
 import "./Sidebar.css";
-// import { Link, withRouter, Route  } from "react-router-dom";
 
-// import { useHistory, useLocation } from 'react-router-dom';
 
 import { useNavigate, useLocation } from "react-router-dom";
 
-import dashboardicon from "../Assets/Images/dashboardicon.svg";
+
 import PlansIcon from "../Assets/Images/PlansIcon.svg";
 import LogoIcon from "../Assets/Images/LogoIcon.svg";
 import HerVest from "../Assets/Images/HerVest.svg";
@@ -22,12 +20,7 @@ function Sidebar() {
       icon: LogoIcon,
       iconclicked: LogoIcon,
     },
-    // {
-    //   path: "/dashboard",
-    //   name: "Dashboard",
-    //   icon: PlansIcon,
-    //   iconclicked: PlansIcon,
-    // },
+   
     {
       path: "/plans",
       name: "Plans",

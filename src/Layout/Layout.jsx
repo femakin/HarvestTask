@@ -1,14 +1,14 @@
-import React, { useState, useEffect, useContext } from "react";
+import React, {  useEffect,  } from "react";
 import Box from "@mui/material/Box";
 import Drawer from "@mui/material/Drawer";
 
 import Sidebar from "../components/Sidebar";
-import Navbar from "../components/Navbar";
+
 
 const drawerWidth = 282;
 
 export default function Layout({ children }) {
-  const [loading, setloading] = useState(false);
+
 
   useEffect(() => {}, []);
 
@@ -32,7 +32,7 @@ export default function Layout({ children }) {
       </Drawer>
       <Box
         component="main"
-        sx={{ flexGrow: 1, bgcolor: "background.default", p: 3 }}
+        // sx={{ flexGrow: 1, bgcolor: "background.default", p: 3 }}
       >
         {children}
       </Box>
