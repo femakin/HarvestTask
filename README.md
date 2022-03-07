@@ -1,4 +1,4 @@
-# Hervest Exercise Task
+# HerVest Exercise Task
 **Coded using**
 
 1. React
