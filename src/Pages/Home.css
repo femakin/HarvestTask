@@ -45,25 +45,14 @@ span.header-greetings {
   background-repeat: no-repeat;
   background-position-x: right;
   background-position-y: 75%;
-  /* position: relative; */
 }
 
-/* .main-content {
-  background-image: url(../Assets/Images/Subtract.svg);
-  background-repeat: no-repeat;
-  background-position-x: right;
-  background-position-y: 75%;
-  height: 200px;
-  background: #e2698d;
-  border-radius: 12px;
-} */
-
-.cover-{
-  background-image: url(../Assets/Images/Subtract1.svg), url(../Assets/Images/Subtract.svg), url(../Assets//Images/Subtract2.svg);
+.cover- {
+  background-image: url(../Assets/Images/Subtract1.svg),
+    url(../Assets/Images/Subtract.svg), url(../Assets//Images/Subtract2.svg);
   background-repeat: no-repeat;
   background-position: left bottom, center top, right bottom;
   height: 200px;
-  /* width: 1020px; */
   background-color: #e2698d;
   border-radius: 12px;
 }
@@ -71,7 +60,6 @@ span.header-greetings {
 .cover-wrapper-- {
   display: flex;
   justify-content: space-around;
-  /* width: 1020px; */
   padding-top: 72px;
   padding-bottom: 73px;
 }
@@ -93,4 +81,187 @@ span.header-greetings {
   line-height: 24px;
   letter-spacing: 0.02em;
   color: #ffffff;
+}
+
+.main-watch {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 39px;
+  letter-spacing: -0.02em;
+  color: #b4b5c1;
+  margin-bottom: 12px;
+}
+
+.watch-sub {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #b4b5c1;
+}
+
+.carousel-wrapper {
+  width: 100%;
+}
+
+.items {
+  display: flex;
+  background-color: #ffffff;
+  color: #fff;
+  margin: 15px;
+  font-size: 2em;
+}
+
+.controls-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 250px;
+}
+
+.rec-carousel-item:focus {
+  outline: none;
+  box-shadow: inset 0 0 1px 0px violet;
+}
+
+.image-p {
+  display: flex;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 0px;
+  padding-left: 20px;
+  gap: 10px;
+}
+
+.progress {
+  padding-bottom: 0px;
+  padding-left: 20px;
+}
+
+.carousel-text {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+
+  color: #000000;
+
+  color: #000000;
+}
+
+.carousel-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.ttems-div {
+  background: #ffffff;
+  border-radius: 12px;
+  height: 173px;
+  width: 285px;
+}
+
+.carousel-price {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+
+  color: #000000;
+
+  padding-top: 0px;
+  padding-left: 20px;
+}
+
+.rec.rec-arrow:disabled {
+  visibility: hidden;
+}
+
+.rec.rec-arrow:hover {
+  border-radius: 50%;
+  background: #ffffff;
+  color: #200e32;
+  box-shadow: 0px 4px 24px #e8f1fd;
+  outline: none;
+  box-shadow: inset 0 0 1px 1px lightgrey;
+}
+
+.jRFJkP:hover:enabled,
+.jRFJkP:focus:enabled {
+  background-color: #aaa !important;
+}
+
+.rec.rec-arrow {
+  border-radius: 50%;
+  background: #ffffff;
+  color: #200e32;
+  box-shadow: 0px 4px 24px #e8f1fd;
+  outline: none;
+  box-shadow: inset 0 0 1px 1px lightgrey;
+}
+
+.item-icon {
+  padding: 10px;
+  background-color: #c2eff0;
+  border-radius: 50%;
+}
+
+progress::-webkit-progress-value {
+  background-color: #aaa !important;
+}
+
+#bar {
+  width: 100px;
+  height: 10px;
+  background: linear-gradient(to bottom right, #aaa, #aaa);
+  border-radius: 6px;
+  box-shadow: 0 0 10px lightblue;
+}
+
+.progress- {
+  background: rgba(255, 255, 255, 0.1);
+  justify-content: flex-start;
+  border-radius: 100px;
+  align-items: center;
+  position: relative;
+  padding: 0 5px;
+  display: flex;
+  height: 40px;
+  width: 500px;
+}
+
+.progress-value- {
+  animation: load 3s normal forwards;
+  box-shadow: 0 10px 40px -10px #200e32;
+  border-radius: 100px;
+  background: #c2eff0;
+  height: 30px;
+  width: 0;
+}
+
+progress {
+  border-radius: 7px;
+  width: 80%;
+  height: 8px;
+}
+progress::-webkit-progress-bar {
+  background-color: #f2f1f3;
+}
+progress::-webkit-progress-value {
+  background-color: blue;
+}
+
+.card-main-wrapper {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-around;
+  gap: 30px;
 }

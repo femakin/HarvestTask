@@ -8,6 +8,15 @@ import { useNavigate, useLocation } from "react-router-dom";
 import PlansIcon from "../Assets/Images/PlansIcon.svg";
 import LogoIcon from "../Assets/Images/LogoIcon.svg";
 import HerVest from "../Assets/Images/HerVest.svg";
+import Bag from "../Assets/Images/Bag.svg";
+import Transactions from "../Assets/Images/Transactions.svg";
+import banksandcards from "../Assets/Images/banksandcards.svg";
+import Girlcode from "../Assets/Images/Girlcode.svg";
+import Profile from "../Assets/Images/Profile.svg";
+import Graph from "../Assets/Images/Graph.svg";
+import About from "../Assets/Images/About.svg";
+import support from "../Assets/Images/support.svg";
+import Logout from "../Assets/Images/Logout.svg"
 
 function Sidebar() {
   const navigate = useNavigate();
@@ -30,64 +39,64 @@ function Sidebar() {
     {
       path: "/purse",
       name: "Purse",
-      icon: PlansIcon,
-      iconclicked: PlansIcon,
+      icon: Bag,
+      iconclicked: Bag,
     },
 
     {
       path: "/transactions",
       name: "Transactions",
-      icon: PlansIcon,
-      iconclicked: PlansIcon,
+      icon: Transactions,
+      iconclicked: Transactions,
     },
 
     {
       path: "/banks_cards",
       name: "Banks & Cards",
-      icon: PlansIcon,
-      iconclicked: PlansIcon,
+      icon: banksandcards,
+      iconclicked: banksandcards,
     },
 
     {
       path: "/girl_code",
       name: "Girl Code",
-      icon: PlansIcon,
-
-      iconclicked: PlansIcon,
+      icon: Girlcode,
+      iconclicked: Girlcode,
     },
+
     {
       path: "/profile",
       name: "Profile",
-      icon: PlansIcon,
-      iconclicked: PlansIcon,
+      icon: Profile,
+      iconclicked: Profile,
     },
 
     {
       path: "/portfolio",
       name: "Portfolio",
-      icon: PlansIcon,
-      iconclicked: PlansIcon,
+      icon: Graph,
+      iconclicked: Graph,
     },
 
     {
-      path: "/bout_harvest",
+      path: "/about_harvest",
       name: "About HerVest",
-      icon: PlansIcon,
-      iconclicked: PlansIcon,
+      icon: About,
+      iconclicked: About,
     },
 
     {
       path: "/support",
       name: "Support",
-      icon: PlansIcon,
-      iconclicked: PlansIcon,
+      icon: support,
+      iconclicked: support,
     },
 
     {
-      path: "/logout",
+      path: "/",
       name: "Logout",
-      icon: PlansIcon,
-      iconclicked: PlansIcon,
+      icon: Logout,
+      iconclicked: Logout,
     },
   ];
 
@@ -132,8 +141,6 @@ function Sidebar() {
                     <img
                       src={x.icon}
                       width="18px"
-                      // height="20px",
-                        // style={{padding: "20px"}}
                       alt="iconimage"
                       className="side-img"
                     />

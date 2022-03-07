@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+
+.card-wrapper {
+  display: flex;
+  gap: 30px;
+  padding: 20px;
+}
+
+.card-main-wrapper:nth-child(1) {
+  background: #e2698d;
+  border-radius: 12px;
+}
+
+.card-main-wrapper:nth-child(2) {
+  background: #265859;
+  border-radius: 12px;
+}
+
+.card-main-wrapper:nth-child(3) {
+  background: #f2f1f3;
+  border-radius: 12px;
+}
+
+.card-title {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: -0.11008px;
+  color: #ffffff;
+}
+
+.card-main-wrapper:nth-child(3) > div > div > h1 + span {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 10px;
+  line-height: 12px;
+  letter-spacing: -0.11008px;
+
+  color: #37474f;
+}
+
+.card-main-wrapper:nth-child(1) > div > div > h1 {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: -0.11008px;
+  width: 170px;
+  height: 19px;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.card-main-wrapper:nth-child(1) > div > div > h1 + span {
+  margin-top: 10px;
+  width: 70px;
+  height: 12px;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 10px;
+  line-height: 12px;
+  letter-spacing: -0.24px;
+
+  color: #fbeaef;
+}
+
+.card-main-wrapper:nth-child(2) > div > div > h1 {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: -0.11008px;
+  color: #ffffff;
+}
+
+.card-main-wrapper:nth-child(2) > div > div > h1 + span {
+  margin-top: 10px;
+  width: 156px;
+  height: 12px;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 10px;
+  line-height: 12px;
+  letter-spacing: -0.24px;
+
+  color: #ffffff;
+}
+
+.card-main-wrapper:nth-child(3) > div > div > h1 {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: -0.11008px;
+  color: #e2698d;
+}
+
+.card-main-wrapper:nth-child(3) > div > div > h1 + span {
+  margin-top: 10px;
+  width: 178px;
+  height: 12px;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 10px;
+  line-height: 12px;
+  letter-spacing: -0.11008px;
+
+  color: #37474f;
+}
+
+.btn-share {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 30px;
+}
+
+.btn-text {
+  font-family: "Montserrat", sans-serif;
+  background: #e2698d;
+  border-radius: 8px;
+  width: 72.47px;
+  height: 30.83px;
+  border: 1px solid #e2698d;
+  outline: none;
+  font-style: normal;
+  color: #fbeaef;
+}
+
+.share-text {
+  width: 40px;
+  height: 18px;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 18px;
+  color: #265859;
+}

@@ -15,7 +15,15 @@ export default function Routing() {
            
            <Routes>
            <Route path='/' element={<Home/>} />
-           
+           <Route path='/purse' element ={<Home/>} />
+           <Route path='/plans' element ={<Home/>} />
+           <Route path='/transactions' element ={<Home/>} />
+           <Route path='/banks_cards' element ={<Home/>} />
+           <Route path='/girl_code' element ={<Home/>} />
+           <Route path='/profile' element ={<Home/>} />
+           <Route path='/portfolio' element ={<Home/>} />
+           <Route path='/about_harvest' element ={<Home/>} />
+           <Route path='/support' element ={<Home/>} />
            </Routes>
            
            
