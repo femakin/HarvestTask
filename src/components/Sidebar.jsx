@@ -1,9 +1,7 @@
 import React from "react";
 import "./Sidebar.css";
 
-
 import { useNavigate, useLocation } from "react-router-dom";
-
 
 import PlansIcon from "../Assets/Images/PlansIcon.svg";
 import LogoIcon from "../Assets/Images/LogoIcon.svg";
@@ -16,7 +14,7 @@ import Profile from "../Assets/Images/Profile.svg";
 import Graph from "../Assets/Images/Graph.svg";
 import About from "../Assets/Images/About.svg";
 import support from "../Assets/Images/support.svg";
-import Logout from "../Assets/Images/Logout.svg"
+import Logout from "../Assets/Images/Logout.svg";
 
 function Sidebar() {
   const navigate = useNavigate();
@@ -29,7 +27,7 @@ function Sidebar() {
       icon: LogoIcon,
       iconclicked: LogoIcon,
     },
-   
+
     {
       path: "/plans",
       name: "Plans",
@@ -93,7 +91,7 @@ function Sidebar() {
     },
 
     {
-      path: "/",
+      path: "/logout",
       name: "Logout",
       icon: Logout,
       iconclicked: Logout,
@@ -103,20 +101,22 @@ function Sidebar() {
   return (
     <>
       <div className="sidemenudetails">
-      <div className="header-logo">
-            <div className="icon-logo">
-              <img src={LogoIcon} alt="HerVest_logo" />
-              <img src={HerVest} alt="HerVest_logo" />
-            </div>
+        <div className="header-logo">
+          <div className="icon-logo">
+            <img src={LogoIcon} alt="HerVest_logo" />
+            <img src={HerVest} alt="HerVest_logo" />
           </div>
+        </div>
 
-          <p className="menu">Menu</p>
-        <div className="sidebar-main-content"   style={{ display: "flex", flexDirection: "column" }}>
-         
+        <p className="menu">Menu</p>
+        <div
+          className="sidebar-main-content"
+          style={{ display: "flex", flexDirection: "column" }}
+        >
           {SidebarData.map((x, i) => {
             return (
               <div
-                 className="sidebar-content-inner"
+                className="sidebar-content-inner"
                 style={{
                   marginTop: "0px",
                   cursor: "pointer",
@@ -134,7 +134,6 @@ function Sidebar() {
                       src={x.iconclicked}
                       alt="iconimage"
                       width="18px"
-                     
                       className="side-img"
                     />
                   ) : (

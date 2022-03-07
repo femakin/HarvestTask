@@ -24,6 +24,7 @@ export default function Routing() {
            <Route path='/portfolio' element ={<Home/>} />
            <Route path='/about_harvest' element ={<Home/>} />
            <Route path='/support' element ={<Home/>} />
+           <Route path='/logout' element ={<Home/>} />
            </Routes>
            
            

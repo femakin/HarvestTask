@@ -8,6 +8,7 @@ import Awardsbro from "../Assets/Images/Awardsbro .svg";
 import Award2 from "../Assets/Images/Award2.svg";
 import Womendayamico from "../Assets/Images/Womendayamico.svg";
 import Cardcomponent from "../components/Cardcomponent";
+import HomeMobile from "./HomeMobile";
 
 export default function Home() {
   const breakPoints = [
@@ -123,6 +124,7 @@ export default function Home() {
 
   return (
     <div>
+      <div className="dsktopscreen">
       <Layout>
         <div className="home-">
           <header>
@@ -200,6 +202,16 @@ export default function Home() {
           </div>
         </div>
       </Layout>
+      </div>
+
+      <div className="mobilescreen">
+        <HomeMobile/>
+        
+        
+      </div>
+
+
+
     </div>
   );
 }
